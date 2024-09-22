@@ -17,7 +17,7 @@ const MovieRow = ({ title, url }) => {
     };
 
     return (
-        <>
+        <section>
             <h2 className="font-nsans-bold md:text-xl p-4 capitalize">
                 {title}
             </h2>
@@ -44,7 +44,7 @@ const MovieRow = ({ title, url }) => {
                     size={40}
                 />
             </div>
-        </>
+        </section>
     );
 };
 

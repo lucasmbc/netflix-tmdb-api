@@ -5,11 +5,14 @@ import Login from "./pages/Login";
 import Signup from "./pages/Signup";
 import Profile from "./pages/Profile";
 import Navbar from "./components/Navbar";
+import Header from "./components/Header";
 
 const App = () => {
     return (
         <>
-            <Navbar />
+            <Header>
+                <Navbar />
+            </Header>
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/login" element={<Login />} />
