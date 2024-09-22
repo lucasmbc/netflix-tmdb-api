@@ -26,7 +26,9 @@ const Login = () => {
                 <div className="fixed w-full px-4 py-24 z-20">
                     <div className="max-w-[450px] h-[600px] mx-auto bg-black/80 rounded-lg">
                         <div className="max-w-[320px] mx-auto py-16">
-                            <h1 className="text-3xl font-nsans-bold">Login</h1>
+                            <h1 className="text-3xl font-nsans-bold uppercase">
+                                faça login
+                            </h1>
 
                             <form
                                 onSubmit={handleFormSubmit}
@@ -53,7 +55,7 @@ const Login = () => {
                                 />
 
                                 <button className="bg-red-600 py-3 my-6 rounded font-nsans-bold">
-                                    Login
+                                    Entrar
                                 </button>
 
                                 <div className="flex justify-between items-center text-gray-600">
@@ -66,17 +68,17 @@ const Login = () => {
                                                 setRememberLogin(!rememberLogin)
                                             }
                                         />
-                                        Remember me
+                                        Lembrar
                                     </p>
 
-                                    <p>Need Help?</p>
+                                    <p>Esqueceu a senha?</p>
                                 </div>
 
                                 <p className="my-4">
                                     <span className="text-gray-600 mr-2">
-                                        New to NetFlix?
+                                        Novo no NetFlix?
                                     </span>
-                                    <Link to="/login">Sign Up</Link>
+                                    <Link to="/signup">Cadastre-se</Link>
                                 </p>
                             </form>
                         </div>

@@ -12,12 +12,12 @@ const Navbar = () => {
 
             <div>
                 <Link to="/login">
-                    <button className="capitalize pr-4">login</button>
+                    <button className="capitalize pr-4">entrar</button>
                 </Link>
 
                 <Link to="/signup">
-                    <button className="capitalize bg-red-600 px-6 py-2 rounded cursor-pointer">
-                        Sign Up
+                    <button className=" bg-red-600 px-6 py-2 rounded cursor-pointer">
+                        Cadastre-se
                     </button>
                 </Link>
             </div>
